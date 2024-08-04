@@ -1,1 +1,101 @@
-[{"type":"com.hpvtech.traveller.domain.model.view_type.basic.TextItemModel","id":"0","text":"Featured","textSizeSp":10.0,"isBold":true,"margin":{"left":16,"top":8,"right":16,"bottom":4}},{"type":"com.hpvtech.traveller.domain.model.view_type.travel.TourCardModel","id":"1","tourName":"Paris","tourDescription":"Experience the romance and culture of Paris.","imageUrl":"https://i.pinimg.com/736x/a7/3c/bf/a73cbfbcf18054bf31ee42e6453c5d94.jpg","regularPrice":"₹200","salePrice":"₹100","margin":{"left":16,"top":4,"right":16,"bottom":4}},{"type":"com.hpvtech.traveller.domain.model.view_type.basic.TextItemModel","id":"a1","text":"Popular Tours","textSizeSp":10.0,"isBold":true,"margin":{"left":16,"top":8,"right":16,"bottom":0}},{"type":"com.hpvtech.traveller.domain.model.view_type.layout.HorizontalRecycleModel","id":"2","recyclerModels":[{"type":"com.hpvtech.traveller.domain.model.view_type.travel.TourCardModel","id":"1","tourName":"Summer Sale","tourDescription":"Get 20% off on summer packages!","imageUrl":"https://i.pinimg.com/736x/a7/3c/bf/a73cbfbcf18054bf31ee42e6453c5d94.jpg","regularPrice":"200","salePrice":"100","width":{"type":"com.hpvtech.traveller.domain.model.modifier.UiSize.Percentage","value":0.7}},{"type":"com.hpvtech.traveller.domain.model.view_type.travel.TourCardModel","id":"2","tourName":"Summer Sale","tourDescription":"Get 20% off on summer packages!","imageUrl":"https://i.pinimg.com/736x/a7/3c/bf/a73cbfbcf18054bf31ee42e6453c5d94.jpg","regularPrice":"200","salePrice":"100","width":{"type":"com.hpvtech.traveller.domain.model.modifier.UiSize.Percentage","value":0.7}}],"padding":{"left":16,"right":16},"clipToPadding":false,"margin":{"left":0,"top":8,"right":0,"bottom":0}},{"type":"com.hpvtech.traveller.domain.model.view_type.travel.TourCardModel","id":"3","tourName":"Grand Canyon Adventure","tourDescription":"Explore the breathtaking views of the Grand Canyon.","imageUrl":"https://i.pinimg.com/736x/a7/3c/bf/a73cbfbcf18054bf31ee42e6453c5d94.jpg","regularPrice":"200","salePrice":"100","margin":{"left":16,"top":0,"right":16,"bottom":0}}]
+[
+  {
+    "type": "com.hpvtech.traveller.domain.model.view_type.basic.TextItemModel",
+    "id": "title1",
+    "text": "Featured",
+    "textSizeSp": 10,
+    "isBold": true,
+    "margin": {
+      "left": 16,
+      "top": 8,
+      "right": 16,
+      "bottom": 4
+    }
+  },
+  {
+    "type": "com.hpvtech.traveller.domain.model.view_type.travel.TourCardModel",
+    "id": "1",
+    "tourName": "Varanasi",
+    "tourDescription": "Known as one of the oldest living cities in the world, Varanasi is a spiritual hub famous for its ghats, temples, and the Ganga Aarti along the banks of the River Ganges.",
+    "imageUrl": "https://i.pinimg.com/564x/28/54/91/285491112b5a301c8c42328124780121.jpg",
+    "regularPrice": "₹5000",
+    "salePrice": "₹3500",
+    "margin": {
+      "left": 16,
+      "top": 4,
+      "right": 16,
+      "bottom": 4
+    }
+  },
+  {
+    "type": "com.hpvtech.traveller.domain.model.view_type.basic.TextItemModel",
+    "id": "title2",
+    "text": "Popular Tours",
+    "textSizeSp": 10,
+    "isBold": true,
+    "margin": {
+      "left": 16,
+      "top": 8,
+      "right": 16,
+      "bottom": 0
+    }
+  },
+  {
+    "type": "com.hpvtech.traveller.domain.model.view_type.layout.HorizontalRecycleModel",
+    "id": "2",
+    "recyclerModels": [
+      {
+        "type": "com.hpvtech.traveller.domain.model.view_type.travel.TourCardModel",
+        "id": "2",
+        "tourName": "Udaipur",
+        "tourDescription": "Often referred to as the 'City of Lakes,' Udaipur is renowned for its beautiful palaces, serene lakes, and vibrant cultural heritage.",
+        "imageUrl": "https://i.pinimg.com/736x/3c/a9/43/3ca9435644834da0f67954c661a7b9f2.jpg",
+        "regularPrice": "₹6000",
+        "salePrice": "₹4200",
+        "width": {
+          "type": "com.hpvtech.traveller.domain.model.modifier.UiSize.Percentage",
+          "value": 0.7
+        }
+      },
+      {
+        "type": "com.hpvtech.traveller.domain.model.view_type.travel.TourCardModel",
+        "id": "3",
+        "tourName": "Ladakh",
+        "tourDescription": "Famed for its breathtaking landscapes, monasteries, and unique culture, Ladakh offers a mix of adventure and spirituality in the high-altitude deserts of the Himalayas.",
+        "imageUrl": "https://i.pinimg.com/564x/39/31/f2/3931f2be8a79a86afe47018e7d57c55d.jpg",
+        "regularPrice": "₹12000",
+        "salePrice": "₹8500",
+        "width": {
+          "type": "com.hpvtech.traveller.domain.model.modifier.UiSize.Percentage",
+          "value": 0.7
+        }
+      }
+    ],
+    "padding": {
+      "left": 16,
+      "right": 16
+    },
+    "clipToPadding": false,
+    "margin": {
+      "left": 0,
+      "top": 8,
+      "right": 0,
+      "bottom": 0
+    }
+  },
+  {
+    "type": "com.hpvtech.traveller.domain.model.view_type.travel.TourCardModel",
+    "id": "4",
+    "tourName": "Rishikesh",
+    "tourDescription": "Known as the 'Yoga Capital of the World,' Rishikesh is a serene town by the Ganges, offering spiritual retreats, adventure sports like white-water rafting, and stunning natural scenery.",
+    "imageUrl": "https://i.pinimg.com/564x/ef/9a/f0/ef9af08a320041cc39c434872d475e25.jpg",
+    "regularPrice": "₹4500",
+    "salePrice": "₹3200",
+    "margin": {
+      "left": 16,
+      "top": 0,
+      "right": 16,
+      "bottom": 0
+    }
+  }
+]
