@@ -1,6 +1,6 @@
 [
   {
-    "type": "com.hpvtech.traveller.domain.model.view_type.basic.TextItemModel",
+    "type": "com.pramod_yadav_tech.traveller.domain.model.view_type.basic.TextItemModel",
     "id": "title1",
     "text": "Featured",
     "textSizeSp": 10,
@@ -13,7 +13,7 @@
     }
   },
   {
-    "type": "com.hpvtech.traveller.domain.model.view_type.travel.TourCardModel",
+    "type": "com.pramod_yadav_tech.traveller.domain.model.view_type.travel.TourCardModel",
     "id": "1",
     "tourName": "Varanasi",
     "tourDescription": "Known as one of the oldest living cities in the world, Varanasi is a spiritual hub famous for its ghats, temples, and the Ganga Aarti along the banks of the River Ganges.",
@@ -28,7 +28,7 @@
     }
   },
   {
-    "type": "com.hpvtech.traveller.domain.model.view_type.basic.TextItemModel",
+    "type": "com.pramod_yadav_tech.traveller.domain.model.view_type.basic.TextItemModel",
     "id": "title2",
     "text": "Popular Tours",
     "textSizeSp": 10,
@@ -41,11 +41,11 @@
     }
   },
   {
-    "type": "com.hpvtech.traveller.domain.model.view_type.layout.HorizontalRecycleModel",
+    "type": "com.pramod_yadav_tech.traveller.domain.model.view_type.layout.HorizontalRecycleModel",
     "id": "2",
     "recyclerModels": [
       {
-        "type": "com.hpvtech.traveller.domain.model.view_type.travel.TourCardModel",
+        "type": "com.pramod_yadav_tech.traveller.domain.model.view_type.travel.TourCardModel",
         "id": "2",
         "tourName": "Udaipur",
         "tourDescription": "Often referred to as the 'City of Lakes,' Udaipur is renowned for its beautiful palaces, serene lakes, and vibrant cultural heritage.",
@@ -53,12 +53,12 @@
         "regularPrice": "₹6000",
         "salePrice": "₹4200",
         "width": {
-          "type": "com.hpvtech.traveller.domain.model.modifier.UiSize.Percentage",
+          "type": "com.pramod_yadav_tech.traveller.domain.model.modifier.UiSize.Percentage",
           "value": 0.7
         }
       },
       {
-        "type": "com.hpvtech.traveller.domain.model.view_type.travel.TourCardModel",
+        "type": "com.pramod_yadav_tech.traveller.domain.model.view_type.travel.TourCardModel",
         "id": "3",
         "tourName": "Ladakh",
         "tourDescription": "Famed for its breathtaking landscapes, monasteries, and unique culture, Ladakh offers a mix of adventure and spirituality in the high-altitude deserts of the Himalayas.",
@@ -66,7 +66,7 @@
         "regularPrice": "₹12000",
         "salePrice": "₹8500",
         "width": {
-          "type": "com.hpvtech.traveller.domain.model.modifier.UiSize.Percentage",
+          "type": "com.pramod_yadav_tech.traveller.domain.model.modifier.UiSize.Percentage",
           "value": 0.7
         }
       }
@@ -84,7 +84,7 @@
     }
   },
   {
-    "type": "com.hpvtech.traveller.domain.model.view_type.travel.TourCardModel",
+    "type": "com.pramod_yadav_tech.traveller.domain.model.view_type.travel.TourCardModel",
     "id": "4",
     "tourName": "Rishikesh",
     "tourDescription": "Known as the 'Yoga Capital of the World,' Rishikesh is a serene town by the Ganges, offering spiritual retreats, adventure sports like white-water rafting, and stunning natural scenery.",
