@@ -10,6 +10,10 @@
       "top": 8,
       "right": 16,
       "bottom": 4
+    },"clickData":{
+      "type":"navigate",
+      "screen":"generic",
+      "data":"ScreenTest"
     }
   },
   {
